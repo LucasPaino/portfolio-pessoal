@@ -1,15 +1,1 @@
-// script.js
-
-document.getElementById("form-contato").addEventListener("submit", function(event) {
-    event.preventDefault();
-    
-    const nome = event.target.nome.value;
-    const email = event.target.email.value;
-    const mensagem = event.target.mensagem.value;
-    
-    if (nome && email && mensagem) {
-        alert("Mensagem enviada com sucesso!");
-    } else {
-        alert("Por favor, preencha todos os campos.");
-    }
-});
+document.getElementById("form-contato").addEventListener("submit",function(event){event.preventDefault();const nome=event.target.nome.value;const email=event.target.email.value;const mensagem=event.target.mensagem.value;if(nome&&email&&mensagem){alert("Mensagem enviada com sucesso!")}else{alert("Por favor, preencha todos os campos.")}})
