@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <meta name="description" content="Portfólio pessoal com projetos front-end">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SOBRE -->
+    <section id="sobre">
+        <h1>Olá, eu sou Lucas</h1>
+        <p>
+            Desenvolvedor front-end em formação, focado em criar interfaces simples,
+            performáticas e com boa experiência de usuário.
+        </p>
+        <img src="images/perfil.webp" alt="Foto de perfil" loading="lazy">
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+
+        <!-- PROJETO 1 -->
+        <div class="projeto">
+            <img src="images/taskflow.webp" alt="TaskFlow - Gerenciador de Tarefas" loading="lazy">
+            <h3>TaskFlow</h3>
+            <p>
+                Aplicação web para gerenciamento de tarefas diárias.
+                Permite adicionar, listar e remover tarefas de forma simples e intuitiva.
+            </p>
+            <p class="tecnologias">
+                <strong>Tecnologias:</strong> HTML, CSS, JavaScript
+            </p>
+        </div>
+
+        <!-- PROJETO 2 -->
+        <div class="projeto">
+            <img src="images/weathernow.webp" alt="WeatherNow - Consulta de Clima" loading="lazy">
+            <h3>WeatherNow</h3>
+            <p>
+                Aplicação web para consulta de clima em tempo real.
+                O usuário pode pesquisar cidades e visualizar temperatura e sensação térmica.
+            </p>
+            <p class="tecnologias">
+                <strong>Tecnologias:</strong> HTML, CSS, JavaScript, API de Clima
+            </p>
+        </div>
+
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Lucas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
